@@ -6,7 +6,7 @@ def fib(n):
     else: 
         return fib(n - 1) + fib(n - 2)
 
-nterms = int(input("How many terms of the fibonacci sequence would you like to print? (Enter an integer and try to keep it below 50): "))
+nterms = int(input("How many terms of the fibonacci sequence would you like to print? (Enter an integer and try to keep it below 30): "))
 
 if nterms <= 0:
     print("Enter a positive integer.")
